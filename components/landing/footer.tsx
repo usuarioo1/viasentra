@@ -1,0 +1,118 @@
+import Link from "next/link"
+
+export function Footer() {
+  return (
+    <footer className="border-t border-border bg-card">
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <div className="lg:col-span-1">
+            <div className="flex items-center gap-2">
+              <div className="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
+                <span className="text-lg font-bold text-primary-foreground">N</span>
+              </div>
+              <span className="text-xl font-bold text-foreground">NextMiner</span>
+            </div>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Plataforma web de gestión operativa y seguridad para empresas de transporte y operaciones en faena.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-foreground">Producto</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <Link href="#modulos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Módulos
+                </Link>
+              </li>
+              <li>
+                <Link href="#beneficios" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Beneficios
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Precios
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Integraciones
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-foreground">Recursos</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Documentación
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Guía de inicio
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Casos de éxito
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-foreground">Contacto</h3>
+            <ul className="mt-4 space-y-2">
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Solicitar demo
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Soporte
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Ventas
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Alianzas
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
+          <p className="text-sm text-muted-foreground">
+            © {new Date().getFullYear()} NextMiner. Todos los derechos reservados.
+          </p>
+          <div className="flex gap-6">
+            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Términos
+            </Link>
+            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Privacidad
+            </Link>
+            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Cookies
+            </Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
