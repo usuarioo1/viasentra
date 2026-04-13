@@ -18,7 +18,7 @@ export function CTASection() {
                 Comienza a controlar tu operación hoy
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-                NextMiner no es solo un sistema para registrar servicios: es una plataforma para controlar la ejecución,
+                Viasentra no es solo un sistema para registrar servicios: es una plataforma para controlar la ejecución,
                 asegurar el cumplimiento y dar visibilidad en tiempo real.
               </p>
 

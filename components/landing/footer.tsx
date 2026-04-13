@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image"
+import ViasentraLogo from "@/assets/viasentra3.png"
 
 export function Footer() {
   return (
@@ -7,10 +9,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
-                <span className="text-lg font-bold text-primary-foreground">N</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">NextMiner</span>
+              <Image src={ViasentraLogo} alt="Viasentra" height={36} className="h-9 w-auto" />
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
               Plataforma web de gestión operativa y seguridad para empresas de transporte y operaciones en faena.
@@ -98,7 +97,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} NextMiner. Todos los derechos reservados.
+            © {new Date().getFullYear()} Viasentra. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">

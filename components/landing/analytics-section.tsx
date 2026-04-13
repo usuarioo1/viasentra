@@ -80,8 +80,8 @@ export function AnalyticsSection() {
                   <span className="font-medium text-primary">94.5%</span>
                 </li>
                 <li className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Tiempo promedio de ciclo</span>
-                  <span className="font-medium text-foreground">2.3 hrs</span>
+                  <span className="text-muted-foreground">Visibilidad de equipo según su estado</span>
+                  <span className="font-medium text-foreground">En tiempo real</span>
                 </li>
                 <li className="flex items-center justify-between text-sm">
                   <span className="text-muted-foreground">Equipos en condiciones</span>

@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'NextMiner | Plataforma de Gestión Operativa y Seguridad',
+  title: 'Viasentra | Plataforma de Gestión Operativa y Seguridad',
   description: 'Centraliza operación, seguridad y cumplimiento en una sola plataforma para transporte en faena. Controla servicios, checklists, alertas y aprobaciones.',
   generator: 'v0.app',
   icons: {

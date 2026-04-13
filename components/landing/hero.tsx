@@ -29,7 +29,7 @@ export function Hero() {
             seguimiento a hallazgos con trazabilidad completa.
           </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          {/* <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="w-full sm:w-auto">
               Solicitar Demo
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -38,7 +38,7 @@ export function Hero() {
               <Play className="mr-2 h-4 w-4" />
               Ver Flujo del Producto
             </Button>
-          </div>
+          </div> */}
         </div>
 
         {/* Stats */}

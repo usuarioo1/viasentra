@@ -47,7 +47,7 @@ export function SolutionSection() {
               Una plataforma que une operación y seguridad
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              NextMiner centraliza todos los procesos en un flujo trazable de punta a punta, desde la planificación
+              Viasentra centraliza todos los procesos en un flujo trazable de punta a punta, desde la planificación
               hasta el cierre del servicio o de la alerta.
             </p>
 

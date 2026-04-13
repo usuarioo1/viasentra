@@ -2,6 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
+import ViasentraLogo from "@/assets/viasentra3.png"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -13,13 +15,10 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-md bg-primary">
-              <span className="text-lg font-bold text-primary-foreground">N</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">NextMiner</span>
+            <Image src={ViasentraLogo} alt="Viasentra" height={48} className="h-12 w-auto" />
           </div>
 
-          <nav className="hidden items-center gap-8 md:flex">
+          <nav className="hidden items-center gap-8 md:flex ">
             <Link href="#problema" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Problema
             </Link>
@@ -34,12 +33,6 @@ export function Header() {
             </Link>
           </nav>
 
-          <div className="hidden items-center gap-4 md:flex">
-            <Button variant="ghost" size="sm">
-              Iniciar Sesión
-            </Button>
-            <Button size="sm">Solicitar Demo</Button>
-          </div>
 
           <button
             className="flex items-center justify-center md:hidden"
