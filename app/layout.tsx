@@ -9,23 +9,10 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Viasentra | Plataforma de Gestión Operativa y Seguridad',
   description: 'Centraliza operación, seguridad y cumplimiento en una sola plataforma para transporte en faena. Controla servicios, checklists, alertas y aprobaciones.',
-  generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/viasentra-favicon.png',
+    shortcut: '/viasentra-favicon.png',
+    apple: '/viasentra-favicon.png',
   },
 }
 

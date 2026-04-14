@@ -1,3 +1,5 @@
+"use client"
+
 import { BarChart3, FileSpreadsheet, FileText, History, Camera, Clock } from "lucide-react"
 
 const features = [
@@ -36,7 +38,7 @@ const features = [
 export function AnalyticsSection() {
   return (
     <section className="relative py-20 lg:py-32">
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-b from-secondary/30 to-transparent" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
           <div className="order-2 lg:order-1">
@@ -63,35 +65,9 @@ export function AnalyticsSection() {
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
               Datos para tomar decisiones
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+            <div className="mt-4 text-lg text-muted-foreground">
               No solo registras información: obtienes indicadores reales de cumplimiento, desempeño y seguridad para
               reuniones, reportes o auditorías.
-            </p>
-
-            <div className="mt-8 rounded-xl border border-border bg-card p-6">
-              <h3 className="font-semibold text-foreground">Dashboard de operaciones</h3>
-              <ul className="mt-4 space-y-3">
-                <li className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Servicios completados</span>
-                  <span className="font-medium text-foreground">247</span>
-                </li>
-                <li className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Tasa de aprobación</span>
-                  <span className="font-medium text-primary">94.5%</span>
-                </li>
-                <li className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Visibilidad de equipo según su estado</span>
-                  <span className="font-medium text-foreground">En tiempo real</span>
-                </li>
-                <li className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Equipos en condiciones</span>
-                  <span className="font-medium text-primary">98.2%</span>
-                </li>
-                <li className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Hallazgos cerrados</span>
-                  <span className="font-medium text-foreground">156</span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

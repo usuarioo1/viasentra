@@ -6,6 +6,7 @@ import {
   StopCircle,
   FileSearch,
   LayoutDashboard,
+  Wrench,
 } from "lucide-react"
 
 const modules = [
@@ -51,6 +52,13 @@ const modules = [
     title: "Dashboards",
     description: "Tableros operativos y de seguridad con métricas, indicadores y exportación a Excel.",
     features: ["KPIs en tiempo real", "Filtros por período", "Exportación Excel", "Vista por rol"],
+  },
+  {
+    icon: Wrench,
+    title: "Taller",
+    description:
+      "Gestión del responsable de mantenimiento de equipos y resolución de no conformidades detectadas.",
+    features: ["Responsable de mantenimiento", "Registro de no conformidades", "Plan de acción", "Cierre y trazabilidad"],
   },
 ]
 
