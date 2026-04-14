@@ -31,8 +31,14 @@ export function Header() {
             <Link href="#modulos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Módulos
             </Link>
+            <Link href="#notificaciones" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Notificaciones
+            </Link>
             <Link href="#beneficios" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Beneficios
+            </Link>
+            <Link href="#contactanos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Contactanos
             </Link>
           </nav>
 
@@ -72,11 +78,25 @@ export function Header() {
               Módulos
             </Link>
             <Link
+              href="#notificaciones"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Notificaciones
+            </Link>
+            <Link
               href="#beneficios"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
               onClick={() => setMobileMenuOpen(false)}
             >
               Beneficios
+            </Link>
+            <Link
+              href="#contactanos"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Contactanos
             </Link>
             <div className="flex flex-col gap-2 pt-4">
               <Button variant="ghost" size="sm" className="justify-start">

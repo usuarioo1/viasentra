@@ -1,4 +1,4 @@
-import { Users, Briefcase, Shield, HardHat, HeartPulse } from "lucide-react"
+import { Users, Briefcase, Shield, HardHat, HeartPulse, Wrench } from "lucide-react"
 
 const roles = [
   {
@@ -24,6 +24,18 @@ const roles = [
     title: "Operarios",
     description: "Ejecución guiada con checklists obligatorios y registro de cada etapa del servicio.",
     benefits: ["Aceptar servicios", "Completar checklists", "Registro de ejecución", " Respaldo de formularios"],
+  },
+  {
+    icon: Wrench,
+    title: "Taller",
+    description:
+      "Levantamiento de no conformidades de equipos para corregir problemas o inconvenientes de mantenimiento.",
+    benefits: [
+      "Registro de no conformidades",
+      "Diagnóstico del inconveniente",
+      "Plan de acción correctivo",
+      "Seguimiento hasta cierre",
+    ],
   },
   {
     icon: HeartPulse,
@@ -55,7 +67,7 @@ export function BenefitsSection() {
               key={index}
               className="group relative overflow-hidden rounded-xl border border-border bg-card transition-all hover:border-primary/50"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+              <div className="absolute inset-0 bg-linear-to-br from-primary/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
               <div className="relative p-6">
                 <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10">
                   <role.icon className="h-7 w-7 text-primary" />
