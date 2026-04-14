@@ -47,22 +47,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Documentación
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
                   Guía de inicio
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Casos de éxito
                 </Link>
               </li>
             </ul>
@@ -72,24 +57,9 @@ export function Footer() {
             <h3 className="font-semibold text-foreground">Contacto</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Solicitar demo
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Soporte
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Ventas
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Alianzas
-                </Link>
+                <a href="mailto:contacto@viasentra.cl" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  contacto@viasentra.cl
+                </a>
               </li>
             </ul>
           </div>

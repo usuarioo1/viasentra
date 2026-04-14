@@ -6,7 +6,7 @@ import { ModulesSection } from "@/components/landing/modules-section"
 import { WorkflowSection } from "@/components/landing/workflow-section"
 import { BenefitsSection } from "@/components/landing/benefits-section"
 import { AnalyticsSection } from "@/components/landing/analytics-section"
-import { CTASection } from "@/components/landing/cta-section"
+
 import { Footer } from "@/components/landing/footer"
 
 export default function LandingPage() {
@@ -20,7 +20,7 @@ export default function LandingPage() {
       <WorkflowSection />
       <BenefitsSection />
       <AnalyticsSection />
-      <CTASection />
+
       <Footer />
     </main>
   )

@@ -19,6 +19,9 @@ export function Header() {
           </div>
 
           <nav className="hidden items-center gap-8 md:flex ">
+            <a href="mailto:contacto@viasentra.cl" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              contacto@viasentra.cl
+            </a>
             <Link href="#problema" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Problema
             </Link>

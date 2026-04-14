@@ -23,7 +23,7 @@ const roles = [
     icon: HardHat,
     title: "Operarios",
     description: "Ejecución guiada con checklists obligatorios y registro de cada etapa del servicio.",
-    benefits: ["Aceptar servicios", "Completar checklists", "Registro de ejecución", "Guía de despacho"],
+    benefits: ["Aceptar servicios", "Completar checklists", "Registro de ejecución", " Respaldo de formularios"],
   },
   {
     icon: HeartPulse,
