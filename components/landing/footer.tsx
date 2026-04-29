@@ -24,21 +24,6 @@ export function Footer() {
                   Módulos
                 </Link>
               </li>
-              <li>
-                <Link href="#beneficios" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Beneficios
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Precios
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Integraciones
-                </Link>
-              </li>
             </ul>
           </div>
 
