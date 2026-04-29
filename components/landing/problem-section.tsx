@@ -19,7 +19,7 @@ const problems = [
   {
     icon: Eye,
     title: "Baja trazabilidad",
-    description: "Imposibilidad de saber quién aprobó, rechazó o ejecutó cada acción en el proceso operativo.",
+    description: "Imposibilidad de saber quién aprobó, rechazó o ejecutó  alguna operación.",
   },
   {
     icon: Clock,

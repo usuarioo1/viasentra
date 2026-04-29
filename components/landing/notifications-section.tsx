@@ -8,11 +8,7 @@ const notificationScenarios = [
         description: "Cada vez que se registra y asigna un servicio, el sistema dispara una notificacion por correo.",
         trigger: "Se crea el servicio SV-1042",
         email: "operador.asignado@empresa.cl",
-        details: [
-            "Codigo de servicio, origen y destino.",
-            "Fecha y hora comprometida.",
-            "Supervisor y prioridad operativa.",
-        ],
+        details: [],
     },
     {
         icon: ClipboardCheck,
@@ -22,9 +18,6 @@ const notificationScenarios = [
         trigger: "Se crea la actividad ACT-2087",
         email: "responsable.actividad@empresa.cl",
         details: [
-            "Tipo de actividad y ubicacion.",
-            "Plazo de ejecucion y fecha limite.",
-            "Instrucciones y evidencia requerida.",
         ],
     },
 ]

@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils"
 import { ArrowRight, Check } from "lucide-react"
 
 const serviceSteps = [
-  { id: "PENDIENTE", label: "Pendiente", description: "Servicio creado y listo para asignar" },
   { id: "ASIGNADO", label: "Asignado", description: "Operario asignado al servicio" },
   { id: "ACEPTADO", label: "Aceptado", description: "Operario acepta el servicio" },
   { id: "EN_CHECKLIST", label: "En Checklist", description: "Completando validaciones previas" },
@@ -16,9 +15,10 @@ const serviceSteps = [
 ]
 
 const alertSteps = [
-  { id: "PENDIENTE", label: "Pendiente", description: "Alerta registrada" },
-  { id: "CIERRE", label: "En Cierre", description: "Responsable trabajando en solución" },
-  { id: "PENDIENTE_VERIFICACION", label: "Pendiente Verificación", description: "Esperando verificación del cierre" },
+  { id: "PENDIENTE", label: "Actividad Programada", description: "Actividad a realizar" },
+  { id: "CIERRE", label: "Levantamiento de información", description: "Generación de alertas o reportes si se requiere" },
+   {id: "RESPONSABLE_CIERRE", label: "Responsable de cierre", description: " responsable asignado cierra el reporte" },
+  { id: "PENDIENTE_VERIFICACION", label: "Pendiente Verificación", description: "Se verifica la información" },
   { id: "CERRADO", label: "Cerrado", description: "Alerta verificada y cerrada" },
 ]
 
@@ -71,7 +71,7 @@ export function WorkflowSection() {
                 : "bg-secondary text-muted-foreground hover:text-foreground"
             )}
           >
-            Flujo de Alertas
+            Flujo de Actividades programadas
           </button>
         </div>
 

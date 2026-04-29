@@ -1,4 +1,4 @@
-import { CheckCircle2, Shield, FileCheck, ClipboardCheck, Bell, BarChart3 } from "lucide-react"
+import { CheckCircle2, Shield, FileCheck, ClipboardCheck, Bell, BarChart3, Mail } from "lucide-react"
 
 const features = [
   {
@@ -31,6 +31,11 @@ const features = [
     title: "Dashboards ejecutivos",
     description: "Indicadores de cumplimiento, tiempos y desempeño exportables a Excel.",
   },
+{
+  icon: Mail,
+  title: "Notificaciones automáticas",
+  description: "Alertas por correo para asiganciones, avisos de cierre y No conformidades.",
+}
 ]
 
 export function SolutionSection() {
@@ -48,7 +53,7 @@ export function SolutionSection() {
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               Viasentra centraliza todos los procesos en un flujo trazable de punta a punta, desde la planificación
-              hasta el cierre del servicio o de la alerta.
+              hasta el cierre del servicio o actividad programada.
             </p>
 
             <div className="mt-8 space-y-4">
