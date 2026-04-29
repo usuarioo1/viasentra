@@ -52,7 +52,7 @@ export function Hero() {
             <div className="mt-1 text-sm text-muted-foreground">Tiempo administrativo</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-foreground lg:text-4xl">5</div>
+            <div className="text-3xl font-bold text-foreground lg:text-4xl">6</div>
             <div className="mt-1 text-sm text-muted-foreground">Roles integrados</div>
           </div>
           <div className="text-center">
