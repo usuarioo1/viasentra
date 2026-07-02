@@ -24,6 +24,11 @@ export function Footer() {
                   Módulos
                 </Link>
               </li>
+              <li>
+                <Link href="#beneficios" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Beneficios
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -31,8 +36,13 @@ export function Footer() {
             <h3 className="font-semibold text-foreground">Recursos</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                <Link href="#solucion" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
                   Guía de inicio
+                </Link>
+              </li>
+              <li>
+                <Link href="#notificaciones" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Notificaciones
                 </Link>
               </li>
             </ul>
@@ -46,6 +56,11 @@ export function Footer() {
                   contacto@viasentra.cl
                 </a>
               </li>
+              <li>
+                <Link href="#contactanos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Solicitar información
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -55,13 +70,13 @@ export function Footer() {
             © {new Date().getFullYear()} Viasentra. Todos los derechos reservados.
           </p>
           <div className="flex gap-6">
-            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="#contactanos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Términos
             </Link>
-            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="#contactanos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Privacidad
             </Link>
-            <Link href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="#contactanos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               Cookies
             </Link>
           </div>

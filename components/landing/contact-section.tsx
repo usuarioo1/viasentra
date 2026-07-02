@@ -15,9 +15,9 @@ export function ContactSection() {
             <Mail className="h-6 w-6 text-primary" />
           </div>
 
-          <h2 className="mt-5 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Contactanos</h2>
+          <h2 className="mt-5 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Contáctanos</h2>
           <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
-            Escribenos para recibir informacion comercial, resolver dudas o solicitar una cotizacion de servicios.
+            Escríbenos para recibir información comercial, resolver dudas o solicitar una cotización de servicios.
           </p>
 
           <a

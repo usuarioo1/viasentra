@@ -31,11 +31,11 @@ const features = [
     title: "Dashboards ejecutivos",
     description: "Indicadores de cumplimiento, tiempos y desempeño exportables a Excel.",
   },
-{
-  icon: Mail,
-  title: "Notificaciones automáticas",
-  description: "Alertas por correo para asiganciones, avisos de cierre y No conformidades.",
-}
+  {
+    icon: Mail,
+    title: "Notificaciones automáticas",
+    description: "Alertas por correo para asignaciones, avisos de cierre y no conformidades.",
+  },
 ]
 
 export function SolutionSection() {

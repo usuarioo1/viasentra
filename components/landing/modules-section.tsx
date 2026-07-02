@@ -12,7 +12,7 @@ import {
 const modules = [
   {
     icon: Truck,
-    title: "Servicios de Transporte",
+    title: "Servicios de transporte",
     description:
       "Creación, asignación y seguimiento de servicios con registro de guía de despacho y generación de PDF.",
     features: ["Código y descripción", "Origen y destino", "Estados controlados", "Historial completo"],
@@ -25,13 +25,13 @@ const modules = [
   },
   {
     icon: Footprints,
-    title: "Caminatas de Seguridad",
+    title: "Caminatas de seguridad",
     description: "Programación y seguimiento de caminatas con zona, faena, responsable y conteo de hallazgos.",
     features: ["Asignación a usuarios", "Fechas programadas", "Estados de avance", "Alertas asociadas"],
   },
   {
     icon: AlertOctagon,
-    title: "Reportes de Peligro",
+    title: "Reportes de peligro",
     description: "Registro de peligros con tipo, zona, nivel de hallazgo y flujo de cierre con verificación posterior.",
     features: ["Clasificación por tipo", "Asignación responsable", "Cierre con evidencia", "Verificación final"],
   },

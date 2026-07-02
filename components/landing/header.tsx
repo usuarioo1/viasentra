@@ -15,10 +15,10 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image src={ViasentraLogo} alt="Viasentra" height={48} className="h-12 w-auto" />
+            <Image src={ViasentraLogo} alt="Viasentra" height={48} className="h-12 w-auto" priority />
           </div>
 
-          <nav className="hidden items-center gap-8 md:flex ">
+          <nav className="hidden items-center gap-8 md:flex" aria-label="Navegación principal">
             <a href="mailto:contacto@viasentra.cl" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
               contacto@viasentra.cl
             </a>
@@ -38,15 +38,16 @@ export function Header() {
               Beneficios
             </Link>
             <Link href="#contactanos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-              Contactanos
+              Contáctanos
             </Link>
           </nav>
-
 
           <button
             className="flex items-center justify-center md:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-navigation"
           >
             {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -55,7 +56,7 @@ export function Header() {
 
       {mobileMenuOpen && (
         <div className="border-t border-border bg-background md:hidden">
-          <nav className="flex flex-col gap-4 p-4">
+          <nav id="mobile-navigation" className="flex flex-col gap-4 p-4" aria-label="Navegación móvil">
             <Link
               href="#problema"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -96,13 +97,17 @@ export function Header() {
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Contactanos
+              Contáctanos
             </Link>
             <div className="flex flex-col gap-2 pt-4">
-              <Button variant="ghost" size="sm" className="justify-start">
-                Iniciar Sesión
+              <Button asChild variant="ghost" size="sm" className="justify-start">
+                <a href="mailto:contacto@viasentra.cl">Iniciar contacto</a>
               </Button>
-              <Button size="sm">Solicitar Demo</Button>
+              <Button asChild size="sm">
+                <Link href="#contactanos" onClick={() => setMobileMenuOpen(false)}>
+                  Solicitar demo
+                </Link>
+              </Button>
             </div>
           </nav>
         </div>
